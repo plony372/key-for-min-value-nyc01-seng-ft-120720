@@ -3,7 +3,7 @@
 
   def key_for_min_value(name_hash)
     if name_hash[0] == nil
-      return false
+      return nil
     end
     minumem_value = 1000000000
     the_key = ""
