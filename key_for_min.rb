@@ -11,7 +11,7 @@
         the_key = key
       end
     end
-    if the_key
+    return nil if the_key == ""
      the_key
      
   end
