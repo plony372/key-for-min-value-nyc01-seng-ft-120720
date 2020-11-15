@@ -3,10 +3,10 @@
 
   def key_for_min_value(name_hash)
 
-    minumem_value = 
+    minumem_value = ""
     the_key = ""
     name_hash.each do |key, value|
-      if value < minumem_value 
+      if value < minumem_value && != 0
         minumem_value = value
         the_key = key
       end
